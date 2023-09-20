@@ -2,10 +2,10 @@ Shader "Refiaa/Laser"
 {
     Properties
     {
-        _TintColor ("Tint Color", Color) = (0.5, 0.5, 0.5, 1.0)
-        _MainTex ("Particle Texture", 2D) = "white" {}
-        _Speed ("Horizontal Movement Speed", Range(0, 1)) = 0.1 
-        _FlickerProbability ("Flicker Probability", Range(0, 1)) = 0.1 
+        _TintColor ("Color", Color) = (0.5, 0.5, 0.5, 1.0)
+        _MainTex ("Albedo", 2D) = "white" {}
+        _Speed ("Random Speed", Range(0, 1)) = 0.1 
+        _FlickerProbability ("Flicker Prob.", Range(0, 1)) = 0.1 
     }
     
     SubShader
