@@ -1,7 +1,7 @@
 ### Unity-LaserShader
 
 
-using laser particle system from booth.tm ; 
+using laser particle system from booth.pm ; 
 
 https://booth.pm/ja/items/3307322
 
