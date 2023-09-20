@@ -3,7 +3,7 @@
 Work Confirmed in Unity 2019.4.31f1
 
 
-using laser particle system from booth.tm ; 
+using laser particle system from booth.pm ; 
 
 https://booth.pm/ja/items/3307322
 
