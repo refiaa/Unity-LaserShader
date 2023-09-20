@@ -1,5 +1,7 @@
 ### Unity-LaserShader
 
+Work Confirmed in Unity 2019.4.31f1
+
 
 using laser particle system from booth.tm ; 
 
@@ -11,3 +13,12 @@ change the shader of Laser particle Material 'LaserTrail(red)' below 'LaserModul
 also change Albedo Texture to Lazer.png 
 
 
+here is how looks like in game. (using VRC)
+
+<p align="center">
+  <img src="https://github.com/refiaa/Unity-LaserShader/assets/112306763/61dc41f3-a778-4ae6-9411-c4f49007c2da">
+</p>
+
+<p align="center">
+  <img src="hhttps://github.com/refiaa/Unity-LaserShader/assets/112306763/50f539c0-3ed4-43f5-b268-8828ac253e93">
+</p>
