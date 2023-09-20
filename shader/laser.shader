@@ -6,7 +6,6 @@ Shader "Refiaa/Laser"
         _MainTex ("Particle Texture", 2D) = "white" {}
         _Speed ("Horizontal Movement Speed", Range(0, 1)) = 0.1 
         _FlickerProbability ("Flicker Probability", Range(0, 1)) = 0.1 
-        _Threshold ("Alpha Threshold", Range(0, 1)) = 0.5 
     }
     
     SubShader
@@ -39,7 +38,6 @@ Shader "Refiaa/Laser"
             float4 _TintColor;
             float _Speed;
             float _FlickerProbability;
-            float _Threshold;
 
             v2f vert(appdata_t v)
             {
@@ -60,7 +58,7 @@ Shader "Refiaa/Laser"
                 half4 texColor = tex2D(_MainTex, i.uv);
                 half alpha = texColor.r * flicker; 
                 
-                if (alpha < _Threshold)
+                if (alpha < 0.5)
                     discard;
                     
                 half4 finalColor = texColor * _TintColor;
