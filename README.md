@@ -5,7 +5,7 @@ Work Confirmed in Unity 2019.4.31f1
 
 using laser particle system from booth.pm ; 
 
-https://booth.pm/ja/items/3307322
+https://sameno.booth.pm/items/3305134
 
 
 change the shader of Laser particle Material 'LaserTrail(red)' below 'LaserModule(635nm)', Particles/Standard Unlit to refiaa/Laser 
