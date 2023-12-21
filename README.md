@@ -1,7 +1,8 @@
-## Unity-LaserShader
+# Unity-LaserShader
 
 Work Confirmed in Unity 2019.4.31f1
 
+### NOT WORK PROPERLY IN UNITY 2022 ~ 
 
 using laser particle system from booth.pm ; 
 
@@ -15,7 +16,7 @@ also change Albedo Texture to Lazer.png
 
 
 
-### here is how looks like in game. (using VRC)
+### here is how looks like in game.
 
 <p align="center">
   <img src="https://github.com/refiaa/Unity-LaserShader/assets/112306763/61dc41f3-a778-4ae6-9411-c4f49007c2da">
