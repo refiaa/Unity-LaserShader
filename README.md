@@ -2,19 +2,14 @@
 
 Work Confirmed in Unity 2019.4.31f1
 
-### NOT WORK PROPERLY IN UNITY 2022 ~ 
-
 using laser particle system from booth.pm ; 
 
 https://sameno.booth.pm/items/3305134
-
 
 change the shader of Laser particle Material 'LaserTrail(red)' below,'LaserModule(635nm)'.
 (Particles/Standard Unlit to refiaa/Laser)
 
 also change Albedo Texture to Lazer.png 
-
-
 
 ### here is how looks like in game.
 
